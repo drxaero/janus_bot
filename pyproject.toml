@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "janus-bot"
+version = "0.1.0"
+description = ""
+authors = ["Janus Cheng <drxaero@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+chainlit = "^2.2.0"
+langchain = "^0.3.18"
+langchain-community = "^0.3.17"
+ctransformers = "^0.2.27"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.8.4"
+pre-commit = "^4.0.1"
+flake8 = "^7.1.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# follows https://github.com/psf/black/blob/main/docs/compatible_configs/isort/pyproject.toml
+[tool.isort]
+profile = 'black'
+
+[tool.poetry-auto-export]
+output = "requirements.txt"
+without_hashes = true
+without = ["dev"]
