@@ -1,6 +1,6 @@
-# Welcome to Chainlit! 🚀🤖
+# Welcome to Janus bot! 🚀🤖
 
-Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
+Hi there! 👋 I'm thrilled to have you here to explore more from Janus.
 
 ## Useful Links 🔗
 
